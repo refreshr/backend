@@ -1,6 +1,6 @@
 require('dotenv').config();
 const express = require('express');
-const configureMiddleware = require('./middleware/middleware.js');
+const configureMiddleware = require('./server/middleware/middleware.js');
 
 const server = express();
 
